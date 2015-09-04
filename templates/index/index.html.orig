@@ -1,4 +1,16 @@
 <div class="view container">
+	<div class="row">
+<<<<<<< HEAD
+		<h1>[MAPA]</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptatem minima animi deleniti inventore, voluptatibus ratione ipsam placeat debitis aspernatur quis aperiam, nemo id vitae tempore? Delectus labore obcaecati fugit!</p>
+=======
+		<h1>Hola marios</h1>
+		<p>Lorem? ipsum dolor sit amet, consectetur adipisicing elit. Minima, neque molestiae accusamus doloribus quia magni commodi, quis iste voluptatibus iusto voluptas fugiat rerum animi a. Quis tempora repellendus voluptate. Aperiam?</p>
+>>>>>>> e7a27d5298446a4eff12be7a88f4d70d1da1836c
+	</div>
+	<style type="text/css">
+.angular-google-map-container { height: 400px; }
+	</style>
 	<ui-gmap-google-map center='map.center' zoom='map.zoom'>
 		<div ng-repeat="marker in markers">
 		<ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
