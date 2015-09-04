@@ -1,6 +1,15 @@
 <div class="container">
 	<div class="row">
 		<h1>Hola marios</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, neque molestiae accusamus doloribus quia magni commodi, quis iste voluptatibus iusto voluptas fugiat rerum animi a. Quis tempora repellendus voluptate. Aperiam?</p>
+		<p>Lorem? ipsum dolor sit amet, consectetur adipisicing elit. Minima, neque molestiae accusamus doloribus quia magni commodi, quis iste voluptatibus iusto voluptas fugiat rerum animi a. Quis tempora repellendus voluptate. Aperiam?</p>
 	</div>
+	<style type="text/css">
+.angular-google-map-container { height: 400px; }
+	</style>
+	<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+		<div ng-repeat="marker in markers">
+		<ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
+        </ui-gmap-marker>
+		</div>
+	</ui-gmap-google-map>
 </div>
