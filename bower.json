@@ -1,0 +1,28 @@
+{
+  "name": "web-static",
+  "version": "0.0.1",
+  "authors": [
+    "mariowise <mariolopezlandes@gmail.com>"
+  ],
+  "description": "Static webpage boilerplate",
+  "main": "index.html",
+  "keywords": [
+    "web",
+    "page",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "angular": "~1.3.14",
+    "angular-ui-router": "~0.2.13",
+    "components-font-awesome": "~4.4.0"
+  }
+}
