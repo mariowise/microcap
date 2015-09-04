@@ -1,0 +1,21 @@
+<div class="course-pill">
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<img class="photo wide" src="{{course.image_url}}" alt="">
+					<span>{{course.user.username}}</span>
+				</div>
+				<div class="col-sm-8">
+					<h3>{{course.title}}</h3>
+					<p>{{course.description}}</p>
+					<div class="date">{{course.date}}</div>
+					<span class="label label-default" ng-repeat="label in course.labels">{{label}}</span>
+					<div class="text-right">
+						<button class="btn btn-link btn-xs">Ver más</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
