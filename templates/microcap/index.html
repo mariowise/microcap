@@ -10,6 +10,12 @@
 					<button class="btn btn-default" type="button"><span class="fa fa-search"></span></button>
 				</span>
 			</div>
+
+			<hr>
+
+			<div class="category">
+				<h4 ng-repeat="label in labels track by $index" ng-click="selectLabel(label)"><span class="label label-default">{{label}}</span></h4>
+			</div>
 		</div>
 		<div class="col-sm-9">
 			<label>Resultados:</label>

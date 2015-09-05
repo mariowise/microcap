@@ -3,13 +3,11 @@
 	h3 {
 		margin-top: 0px;
 	}
-
-	.label {
-		margin-right: 5px;
-	}
-
 	.photo {
 		border-radius: 100px;
+	}
+	.label {
+		margin-right: 5px;
 	}
 }
 
@@ -19,6 +17,7 @@
 
 .course {
 	border-bottom: 1px solid #E2E1DC;
+	transition:visibility 0s linear 0.5s,opacity 0.5s linear;
 
 	.avatar {
 		margin-top: 10px;
@@ -27,5 +26,19 @@
 	}
 	&:last-child {
 		border-bottom: none;
+	}
+}
+
+.category {
+	h4 {
+		display: inline-block;
+	}
+	.label {
+		display: inline-block;
+		margin-right: 5px;
+		&:hover {
+			cursor: pointer;
+			background-color: @brand-success;
+		}
 	}
 }

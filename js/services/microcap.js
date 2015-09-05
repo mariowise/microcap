@@ -140,7 +140,7 @@ angular.module('myApp.services.microcap', [])
 			description: "Curso para profundizar en los movimientos de ataque del Ajedrez",
 			date: "04/09/2016",
 			labels: ["Juegos"],
-			image_url: "img/danilo.jpg",
+			image_url: "img/danilo.png",
 			user: {
 				username: "Danilo Aburto"
 			}

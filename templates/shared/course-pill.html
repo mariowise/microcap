@@ -12,7 +12,7 @@
 					<div class="date">{{course.date}}</div>
 					<span class="label label-default" ng-repeat="label in course.labels">{{label}}</span>
 					<div class="text-right">
-						<button class="btn btn-link btn-xs">Ver más</button>
+						<button class="btn btn-link btn-xs" ui-sref="microcap.show({ id: course.id }}">Ver más</button>
 					</div>
 				</div>
 			</div>
