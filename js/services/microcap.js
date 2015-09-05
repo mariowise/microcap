@@ -66,7 +66,7 @@ angular.module('myApp.services.microcap', [])
 		, find: function (key) {
 			var res = null
 			db.forEach(function (item) {
-				if(item.id === key)
+				if(item.id === Number(key))
 					res = item
 			})
 			return res

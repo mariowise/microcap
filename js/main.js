@@ -2,7 +2,8 @@ angular.module('myApp', [
 	'ui.router',
 
 	'myApp.controllers.application',
-	'myApp.controllers.index',
+    'myApp.controllers.index',
+	'myApp.controllers.microcap',
     
     'myApp.directives.courses',
 
