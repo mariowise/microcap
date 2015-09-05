@@ -3,12 +3,15 @@ angular.module('myApp', [
 
 	'myApp.controllers.application',
 	'myApp.controllers.index',
-    'myApp.directives.courses'
+    
+    'myApp.directives.courses',
+
+    'myApp.services.microcap'
 ])
 
 .config(function($stateProvider, $urlRouterProvider) {
 	
-	$urlRouterProvider.otherwise("/app/index");
+	$urlRouterProvider.otherwise("/app/");
 	
 	$stateProvider
 	
@@ -23,8 +26,29 @@ angular.module('myApp', [
         }
     })
     .state('app.index',{
-        url:'/index',
+        url:'/',
         templateUrl: 'templates/index/index.html',
         controller:'index#index'
+    })
+
+    .state('microcap', {
+        url: '/microcap',
+        abstract: true,
+        views: {
+            "mainView": {
+                templateUrl: "templates/layout/layout.html",
+                controller: "MicrocapController"
+            }
+        }
+    })
+    .state('microcap.index', {
+        url: '/',
+        templateUrl: "templates/microcap/index.html",
+        controller: "microcap#index"
+    })
+    .state('microcap.show', {
+        url: '/:id',
+        templateUrl: "templates/microcap/show.html",
+        controller: "microcap#show"
     })
 });
