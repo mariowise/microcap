@@ -1,3 +1,27 @@
 <div class="view view-white container">
-	#Página de ver curso
-</div>
+	<div class="row">
+		<div class="col-xs-3 text-center">
+			<img class="photo wide" src="{{course.image_url}}" alt="">
+			<div class="col-xs-12">
+				<div class="tile" style="height:auto;">
+					<h3 class="tile-title" style="border-bottom:1px dotted #ccc;padding-bottom:10px; margin-bottom:10px;">
+						<a href="#">
+							{{course.user.username}}
+						</a>
+					</h3>
+				</div>
+			</div>
+			<share></share>
+		</div> <!-- /todo list -->
+		<div class="col-xs-9">
+			<h3>
+				{{course.title}} <span class="title-date" style="font-size:14px;">{{course.date}}</span>
+			</h3>
+			<p>
+				{{course.description}}
+			</p>
+			<ul class="tags">
+				<li class="label label-default" ng-repeat="label in course.labels">{{label}}</li>
+			</ul>
+		</div> 
+	</div>
