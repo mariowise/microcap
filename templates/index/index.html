@@ -1,10 +1,34 @@
 <div class="view container">
-	<ui-gmap-google-map center='map.center' zoom='map.zoom'>
-		<div ng-repeat="marker in markers">
-		<ui-gmap-marker coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
+	<div class="jumbotron index">
+		<div class="container">
+			<br>
+			<h1>Que es MicroCap?</h1>
+			<br>
+			<p>Es una aplicación Web 2.0 que permite a la comunidad buscar y ofrecer todo tipo de eventos culturales, seminarios, talleres y cursos de manera gratuita.</p>
+			<p>Es rápido, fácil y gratuito. </p>
+			<p>Este parrafo y el anterior son solo para mostrar la foto del fondo que esta muy re linda.</p>
+			<br>
+			<!-- <p>Si no estas registrado hazlo ahora!</p>
+			<p><a class="btn btn-primary btn-lg" role="button">Registro</a></p> -->
+		</div>
+	</div>
+	<br>
+	<!-- <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+		<div ng-repeat="course in courses">
+		<ui-gmap-marker coords="course.marker.coords" markerlabel="asd" options="course.marker.options" events="course.marker.events" idkey="course.marker.id">
         </ui-gmap-marker>
 		</div>
-	</ui-gmap-google-map>
+	</ui-gmap-google-map> -->
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1">
+			<div class="input-group">
+				<input id="search-home" type="text" class="form-control" placeholder="Busca tu Micro Capacitación...">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button" style="font-size:28px;height:60px;"><span class="fa fa-search"></span></button>
+				</span>
+			</div><!-- /input-group -->
+		</div><!-- /.col-lg-6 -->
+	</div>
 </div>
 
 <div class="view-full">
@@ -39,10 +63,10 @@
 
 				<div class="row">
 					<div class="col-md-4" ng-repeat-start="course in courses">
-				        <div course-pill course="course"></div>
-				    </div>
-				    <div class="clearfix" ng-if="$index%3==2"></div>
-				    <div ng-repeat-end=""></div>
+						<div course-pill course="course"></div>
+					</div>
+					<div class="clearfix" ng-if="$index%3==2"></div>
+					<div ng-repeat-end=""></div>
 				</div>
 			</div>
 		</div>
