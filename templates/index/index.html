@@ -11,12 +11,15 @@
 	<br>
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1">
-			<div class="input-group">
-				<input id="search-home" type="text" class="form-control" placeholder="Busca tu Micro Capacitación...">
-				<span class="input-group-btn">
-					<button class="btn btn-default" type="button" style="font-size:28px;height:60px;"><span class="fa fa-search"></span></button>
-				</span>
-			</div>
+			<form ng-submit="search()">
+				<div class="input-group">
+					<input id="search-home" ng-model="query" type="text" class="form-control" placeholder="Busca tu Micro Capacitación...">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="button" style="font-size:28px;height:60px;"><span class="fa fa-search"></span></button>
+					</span>
+					<input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;"/>
+				</div>
+			</form>
 		</div>
 	</div>
 </div>
@@ -27,15 +30,15 @@
 			<div class="col-sm-3 col-sm-offset-3 text-center">
 				<div class="concept">
 					<div class="icon"><i class="fa fa-hand-o-up"></i></div>
-					<h1 class="title">Ofrezco</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam odit debitis fugit.</p>
+					<h1 class="title">Ofrece</h1>
+					<p>¿Tienes alguna habilidad que quieras compartir? Ofrece tus propias micro capacitaciones y encuentra interesados en aprender tu habilidad.</p>
 				</div>
 			</div>
 			<div class="col-sm-3 text-center">
 				<div class="concept">
 					<div class="icon"><i class="fa fa-search"></i></div>
-					<h1 class="title">Busco</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam odit debitis fugit.</p>
+					<h1 class="title">Busca</h1>
+					<p>¿Quieres aprender algo nuevo? ¿Quieres mejorar tus habilidades? Encuentra micro capacitaciones, y consigue mejorar tus habilidades.</p>
 				</div>
 			</div>
 		</div>
@@ -48,7 +51,7 @@
 			<div class="col-sm-12">
 				<h1 class="text-center">Encuentra Micro Capacitaciones</h1>
 				<hr>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis illo unde nisi id commodi quidem blanditiis expedita, qui, voluptatum soluta ratione autem facilis neque aliquam libero dolorum saepe reiciendis. Facere?</p>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aut quidem quisquam nostrum reiciendis eaque, nihil saepe esse incidunt voluptate recusandae dignissimos! Ipsum a, iusto blanditiis atque fugit porro, aut?</p>
 				<br>
 
 				<div class="row">
