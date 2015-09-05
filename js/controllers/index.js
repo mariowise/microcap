@@ -5,26 +5,7 @@ angular.module('myApp.controllers.index', ["uiGmapgoogle-maps"])
 
 	$scope.testing = "The Testing Text"
 	$scope.map = { center: { latitude: -39.8128564, longitude: -73.2469609 }, zoom: 14 };
-	$scope.markers = [
-		{
-			id: 0,
-			coords: {
-				latitude: -39.8128564,
-				longitude: -73.2469609
-			},
-			options: { draggable: false },
-		},
-		{
-			id: 1,
-			coords: {
-				latitude: -39.81647017616702,
-				longitude: -73.24259150120243
-			},
-			options: { draggable: false },
-		}
-	]
-
-$scope.courses = [
+	$scope.courses = [
 		{
 			title: "Curso de Inglés",
 			description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui mollitia, ab modi ?",
@@ -33,6 +14,14 @@ $scope.courses = [
 			image_url: "img/user.jpg",
 			user: {
 				username: "mariowise"
+			},
+			marker:{
+				id: 0,
+				coords: {
+					latitude: -39.8128564,
+					longitude: -73.2469609
+				},
+				options: { draggable: false},
 			}
 		},
 		{
@@ -43,6 +32,14 @@ $scope.courses = [
 			image_url: "img/user.jpg",
 			user: {
 				username: "mariowise"
+			},
+			marker:{
+				id: 1,
+				coords: {
+					latitude: -39.81647017616702,
+					longitude: -73.24259150120243
+				},
+				options: { draggable: false },
 			}
 		},
 		{
@@ -53,6 +50,14 @@ $scope.courses = [
 			image_url: "img/user.jpg",
 			user: {
 				username: "mariowise"
+			},
+			marker:{
+				id: 2,
+				coords: {
+					latitude: -39.8134016,
+					longitude: -73.2446403
+				},
+				options: { draggable: false },
 			}
 		},
 		{
@@ -63,6 +68,14 @@ $scope.courses = [
 			image_url: "img/user.jpg",
 			user: {
 				username: "mariowise"
+			},
+			marker:{
+				id: 3,
+				coords: {
+					latitude: -39.8106266,
+					longitude: -73.2534791
+				},
+				options: { draggable: false },
 			}
 		},
 		{
@@ -73,6 +86,14 @@ $scope.courses = [
 			image_url: "img/user.jpg",
 			user: {
 				username: "mariowise"
+			},
+			marker:{
+				id: 4,
+				coords: {
+					latitude: -39.8178808,
+					longitude: -73.2575685
+				},
+				options: { draggable: false },
 			}
 		}
 	]
