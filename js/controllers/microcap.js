@@ -31,4 +31,10 @@ angular.module('myApp.controllers.microcap', [])
 
 	$scope.course = Microcap.find($stateParams.id)
 	console.log($scope.course)
+
+	$('.rating').raty({ starType: 'i',
+						readOnly : true, 
+						score: $scope.course.user.score,
+						
+					});
 })
