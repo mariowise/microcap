@@ -9,6 +9,8 @@ angular.module('myApp.services.microcap', [])
 			date: "01/07/2016",
 			labels: ["Inglés", "Curso Municipal"],
 			image_url: "img/danilo.png",
+			tarifa: "-",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Danilo Aburto",
 				score: 2
@@ -21,6 +23,8 @@ angular.module('myApp.services.microcap', [])
 			date: "02/07/2016",
 			labels: ["Técnico"],
 			image_url: "img/daniel.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Daniel Quinteros",
 				score: 4
@@ -33,6 +37,8 @@ angular.module('myApp.services.microcap', [])
 			date: "03/07/2016",
 			labels: ["Computación", "Informática"],
 			image_url: "img/mariom.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Mario Muñoz",
 				score: 5
@@ -45,6 +51,8 @@ angular.module('myApp.services.microcap', [])
 			date: "03/07/2016",
 			labels: ["Emprendimiento"],
 			image_url: "img/diegob.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Diego Berrios",
 				score: 3
@@ -57,6 +65,8 @@ angular.module('myApp.services.microcap', [])
 			date: "07/08/2016",
 			labels: ["Cocina", "Curso Municipal"],
 			image_url: "img/gab.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Gabriela León",
 				score: 3
@@ -69,6 +79,8 @@ angular.module('myApp.services.microcap', [])
 			date: "10/08/2016",
 			labels: ["Matemáticas"],
 			image_url: "img/gonzalo.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Gonzalo Barra",
 				score: 4
@@ -81,6 +93,8 @@ angular.module('myApp.services.microcap', [])
 			date: "15/08/2016",
 			labels: ["Lenguaje"],
 			image_url: "img/diegoj.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Diego Jaume",
 				score: 0
@@ -93,6 +107,8 @@ angular.module('myApp.services.microcap', [])
 			date: "20/08/2016",
 			labels: ["PSU"],
 			image_url: "img/diegoj.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Diego Jaume",
 				score: 1
@@ -105,6 +121,8 @@ angular.module('myApp.services.microcap', [])
 			date: "22/08/2016",
 			labels: ["Teatro"],
 			image_url: "img/rai.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Raimundo Fernandez",
 				score: 3
@@ -117,6 +135,8 @@ angular.module('myApp.services.microcap', [])
 			date: "23/08/2016",
 			labels: ["Arte"],
 			image_url: "img/gab.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Gabriela León",
 				score: 2
@@ -129,6 +149,8 @@ angular.module('myApp.services.microcap', [])
 			date: "26/08/2016",
 			labels: ["Cine"],
 			image_url: "img/mariom.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Mario Muñoz",
 				score: 5
@@ -141,6 +163,8 @@ angular.module('myApp.services.microcap', [])
 			date: "03/09/2016",
 			labels: ["Cine"],
 			image_url: "img/diegob.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Diego Berrios",
 				score: 4
@@ -153,6 +177,8 @@ angular.module('myApp.services.microcap', [])
 			date: "04/09/2016",
 			labels: ["Juegos"],
 			image_url: "img/danilo.png",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Danilo Aburto",
 				score: 3
@@ -165,6 +191,8 @@ angular.module('myApp.services.microcap', [])
 			date: "08/09/2016",
 			labels: ["Cine"],
 			image_url: "img/mariom.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Mario Muñoz",
 				score: 5
@@ -177,6 +205,8 @@ angular.module('myApp.services.microcap', [])
 			date: "13/09/2016",
 			labels: ["Computación"],
 			image_url: "img/daniel.jpg",
+			tarifa: "15.000 pesos por clase, maximo de 5 personas",
+			hora:"Despues de las 7pm",
 			user: {
 				username: "Daniel Quinteros",
 				score: 2
