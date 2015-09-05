@@ -10,7 +10,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Inglés", "Curso Municipal"],
 			image_url: "img/danilo.png",
 			user: {
-				username: "Danilo Aburto"
+				username: "Danilo Aburto",
+				score: 2
 			}
 		},
 		{
@@ -21,7 +22,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Técnico"],
 			image_url: "img/daniel.jpg",
 			user: {
-				username: "Daniel Quinteros"
+				username: "Daniel Quinteros",
+				score: 4
 			}
 		},
 		{
@@ -32,7 +34,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Computación", "Informática"],
 			image_url: "img/mariom.jpg",
 			user: {
-				username: "Mario Muñoz"
+				username: "Mario Muñoz",
+				score: 5
 			}
 		},
 		{
@@ -43,7 +46,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Emprendimiento"],
 			image_url: "img/diegob.jpg",
 			user: {
-				username: "Diego Berrios"
+				username: "Diego Berrios",
+				score: 3
 			}
 		},
 		{
@@ -54,7 +58,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Cocina", "Curso Municipal"],
 			image_url: "img/gab.jpg",
 			user: {
-				username: "Gabriela León"
+				username: "Gabriela León",
+				score: 3
 			}
 		},
 		{
@@ -65,7 +70,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Matemáticas"],
 			image_url: "img/gonzalo.jpg",
 			user: {
-				username: "Gonzalo Barra"
+				username: "Gonzalo Barra",
+				score: 4
 			}
 		},
 		{
@@ -76,7 +82,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Lenguaje"],
 			image_url: "img/diegoj.jpg",
 			user: {
-				username: "Diego Jaume"
+				username: "Diego Jaume",
+				score: 0
 			}
 		},
 		{
@@ -87,7 +94,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["PSU"],
 			image_url: "img/diegoj.jpg",
 			user: {
-				username: "Diego Jaume"
+				username: "Diego Jaume",
+				score: 1
 			}
 		},
 		{
@@ -98,7 +106,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Teatro"],
 			image_url: "img/rai.jpg",
 			user: {
-				username: "Raimundo Fernandez"
+				username: "Raimundo Fernandez",
+				score: 3
 			}
 		},
 		{
@@ -109,7 +118,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Arte"],
 			image_url: "img/gab.jpg",
 			user: {
-				username: "Gabriela León"
+				username: "Gabriela León",
+				score: 2
 			}
 		},
 		{
@@ -120,7 +130,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Cine"],
 			image_url: "img/mariom.jpg",
 			user: {
-				username: "Mario Muñoz"
+				username: "Mario Muñoz",
+				score: 5
 			}
 		},
 		{
@@ -131,7 +142,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Cine"],
 			image_url: "img/diegob.jpg",
 			user: {
-				username: "Diego Berrios"
+				username: "Diego Berrios",
+				score: 4
 			}
 		},
 		{
@@ -142,7 +154,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Juegos"],
 			image_url: "img/danilo.jpg",
 			user: {
-				username: "Danilo Aburto"
+				username: "Danilo Aburto",
+				score: 3
 			}
 		},
 		{
@@ -153,7 +166,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Cine"],
 			image_url: "img/mariom.jpg",
 			user: {
-				username: "Mario Muñoz"
+				username: "Mario Muñoz",
+				score: 5
 			}
 		},
 		{
@@ -164,7 +178,8 @@ angular.module('myApp.services.microcap', [])
 			labels: ["Computación"],
 			image_url: "img/daniel.jpg",
 			user: {
-				username: "Daniel Quinteros"
+				username: "Daniel Quinteros",
+				score: 2
 			}
 		},
 	]
